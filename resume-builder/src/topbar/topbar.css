@@ -1,0 +1,37 @@
+.topbar-Container{
+    /* min-height: 200px; */
+    min-height: 20vh;
+    width: 100%;
+    background: #dadadc;
+    display: flex;
+}
+.name-section {
+    flex-basis: 40%;
+}
+.name-section .firstname {
+    color: #2284ab;
+}
+.profile-image-section{
+    flex-basis: 25%;
+    border-radius: 50px;
+}
+.profile-image-section img {
+    width: 150px;
+    height: 150px;
+    float: right;
+    border-radius: 94px;
+    /* margin-right: 30px;
+    margin-top: 20px; */
+}
+.profile-details-section {
+    flex-basis: 35%;
+}
+
+@media screen and (min-width: 480px){
+    .top-bar-container{
+        /* min-height: 100px; */
+        min-height: 20vh;
+        width: 100%;
+        order: 0; 
+    }
+}

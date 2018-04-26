@@ -1,0 +1,15 @@
+.sidebar-Container {
+    width: 35%;
+    /* min-height: 300px; */
+    min-height: 80vh;
+    background: yellow;
+}
+
+
+@media screen and (min-width: 480px){
+    .sidebar-Container{
+        max-width: 100%;
+        min-height: 80vh; 
+        order: 1;
+    }
+}
