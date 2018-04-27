@@ -1,13 +1,13 @@
 .maincontent-Container {
     width: 65%;
-    min-height: 80vh;
-    background-color: slateblue;
+    min-height: 300px;
+    background-color: #edebfb;
 }
 
 @media screen and (min-width: 480px){
     .maincontent-Container{
         max-width: 100%;
-        min-height: 80vh;
+        /* min-height: 80vh; */
         flex-grow: 1;
         order: 2;
     }

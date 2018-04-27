@@ -1,5 +1,5 @@
 .app-Container {
-  min-height: 100vh;
+  min-height: auto;
   background: white;
   display: flex;
   flex-wrap: wrap;
@@ -16,7 +16,7 @@
   .app-Container{
     /* width: 1000px;
     margin: auto; */
-    width: 8.5in;
-    height: 11in;
+    /* width: 8.5in;
+    height: 11in; */
   }
 }

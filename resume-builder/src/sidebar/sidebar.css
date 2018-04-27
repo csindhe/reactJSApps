@@ -1,15 +1,52 @@
 .sidebar-Container {
     width: 35%;
-    /* min-height: 300px; */
-    min-height: 80vh;
-    background: yellow;
+    min-height: 300px;
+    /* min-height: 80vh; */
+    background: #d8e8e6;
+    color: #464545;
 }
 
+.sidebar-section {
+    margin: 10px;
+}
+
+.section-content {
+    margin-top: 10px;
+}
+
+.section-title {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.skill {
+    display: flex;
+    padding-top: 10px;
+}
+
+.skill-title {
+    flex-basis: 30%;
+    min-width: 150px;
+    font-variant: small-caps;
+}
+
+.skill-stars {
+    flex-basis: 70%;
+}
+
+.skill-star {
+    min-width: 20px !important;
+}
+
+.skill-sec {
+    padding-bottom: 10px;
+    font-variant: small-caps;
+}
 
 @media screen and (min-width: 480px){
     .sidebar-Container{
         max-width: 100%;
-        min-height: 80vh; 
+        /* min-height: 80vh;  */
         order: 1;
     }
 }

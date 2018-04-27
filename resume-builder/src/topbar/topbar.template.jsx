@@ -14,19 +14,19 @@ export default function TopBarTemplate() {
             <div className="profile-details-section">
                 <div className="phone">
                     <span className= "fa fa-mobile" ></span>
-                    { this.state.phone }
+                    <span className="profile-data">{ this.state.phone }</span>
                 </div>
                 <div className="email">
                     <span className= "fa fa-envelope" > </span> 
-                    { this.state.email }
+                    <span className="profile-data">{ this.state.email }</span>
                 </div>
                 <div className="dob">
                     <span className= "fa fa-birthday-cake" > </span>
-                    { this.state.dob }
+                    <span className="profile-data">{ this.state.dob }</span>
                 </div>
                 <div className="place"> 
                     <span className= "fa fa-map-marker" > </span>
-                    { this.state.place }
+                    <span className="profile-data">{ this.state.place }</span>
                 </div>
             </div>
         </div>

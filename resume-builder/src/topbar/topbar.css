@@ -1,18 +1,23 @@
 .topbar-Container{
     /* min-height: 200px; */
-    min-height: 20vh;
+    /* min-height: 20vh; */
+    padding-top:20px;
+    max-height: 160px;
     width: 100%;
-    background: #dadadc;
+    /* background:#0085c3; */
+    /* background: #6593a9; */
+    background: #12374899;
     display: flex;
+    color: white;
 }
 .name-section {
-    flex-basis: 40%;
+    flex-basis: 43%;
 }
 .name-section .firstname {
     color: #2284ab;
 }
 .profile-image-section{
-    flex-basis: 25%;
+    flex-basis: 20%;
     border-radius: 50px;
 }
 .profile-image-section img {
@@ -24,7 +29,68 @@
     margin-top: 20px; */
 }
 .profile-details-section {
-    flex-basis: 35%;
+    flex-basis: 24%;
+    padding-left: 60px;
+    padding-top: 20px;
+    font-size: 14px;
+}
+
+.phone, .email, .dob, .place {
+    padding-bottom: 10px;
+}
+
+.name-section {
+    margin-left: 20px;
+}
+
+.firstName, .lastName {
+    font-size: -webkit-xxx-large;
+    font-variant: small-caps;
+    font-weight: 700;
+    font-family: -webkit-body;
+}
+
+.lastName {
+    color: #353535;
+    line-height: 33px;
+    padding-left: 8px;
+    font-size: 2.5em;
+}
+
+.title {
+    padding-top: 17px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #dfedff;
+}
+
+span.fa {
+    color: #302b42;
+    position: relative;
+    top: 2px;
+    min-width: 25px;    
+}
+
+.fa-mobile {
+    font-size: x-large;
+    padding-right: 10px;
+}
+.fa-envelope {
+    padding-right: 8px;
+    font-size: medium;
+}
+.fa-birthday-cake {
+    padding-right: 8px;
+    font-size: medium;
+}
+.fa-map-marker {
+    padding-right: 10px;
+    font-size: x-large;
+}
+
+.dob .profile-data {
+    position: relative;
+    top: 2px;
 }
 
 @media screen and (min-width: 480px){
@@ -33,5 +99,12 @@
         min-height: 20vh;
         width: 100%;
         order: 0; 
+    }
+}
+
+@media print  {
+    .top-bar-container {
+        padding-top:20px;
+        max-height: 160px;
     }
 }
