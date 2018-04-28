@@ -2,6 +2,82 @@
     width: 65%;
     min-height: 300px;
     background-color: #edebfb;
+    color: #464545;
+}
+
+.maincontent-section {
+    margin: 15px;
+    margin-top: 25px;
+}
+
+.experience-section {
+    display: flex;
+}
+
+.experience-details {
+    flex-basis: 73%;
+}
+
+.experience-image {
+    flex-basis: 27%;
+}
+
+.maincontent-title {
+    margin-top: 23.8px;
+    margin-left: 15px;
+    display: flex;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.exp_title {
+    flex-basis: 65%;
+}
+
+.exp_years {
+    flex-basis: 35%;
+    font-size: medium;
+}
+
+.experience-details {
+    line-height: 1.5;
+}
+
+.exp_img {
+    padding-top: 14px;
+}
+
+.exp_role {
+    font-variant: small-caps;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+img.InfosysLtd_logo {
+    height: 60px;
+}
+
+img.TechMahindraLtd_logo {
+    height: 35px;
+}
+
+img.CognizantLtd_logo {
+    height: 45px;
+}
+
+.experience-synopsis {
+    margin-top: 15px;
+}
+
+.exp_company {
+    color: brown;
+    font-size: 18px;
+}
+
+.exp_period {
+    color: navy;
+    font-size: medium;
+    font-size: 16px;
 }
 
 @media screen and (min-width: 480px){

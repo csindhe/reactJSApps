@@ -2,6 +2,7 @@ import React from 'react';
 import TopBar from './topbar/topbar';
 import SideBar from './sidebar/sidebar';
 import MainContent from './maincontent/maincontent';
+import BottomBar from './bottombar/bottombar';
 
 export default function AppTemplate () {
     return (
@@ -9,6 +10,7 @@ export default function AppTemplate () {
             <TopBar />
             <SideBar />
             <MainContent />
+            <BottomBar />
         </div>
     );
 }

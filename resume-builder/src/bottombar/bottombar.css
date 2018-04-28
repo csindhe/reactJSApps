@@ -1,0 +1,12 @@
+.bottom-container {
+    flex-basis: 100%;
+    order: 3;
+    background-color: #12374899;
+    height: 15px;
+    color: white;
+    /* padding: 10px; */
+    text-align: right;
+    padding: 10px;
+    /* padding-top: 10px; */
+    font-weight: 500;
+}
