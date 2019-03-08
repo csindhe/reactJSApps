@@ -5,11 +5,11 @@ export default function MainContentTemplate() {
         <div className="maincontent-Container">
             <div className="maincontent-title">
                 <div className="exp_title">Work Experience</div>
-                <div className="exp_years">10 Years 6 Months</div>
+                <div className="exp_years">11 Years 5 Months</div>
             </div>
             <div className="maincontent-title">
                 <div className="exp_title">Relevant Experience</div>
-                <div className="exp_years">5 Years</div>
+                <div className="exp_years">6 Years 5 Months</div>
             </div>
             {
                 this.state.workExperience.map((experience, index) => {
